@@ -1,0 +1,30 @@
+// Configuração da integração ContentKit para Gitbook
+// Este arquivo deve ser usado como package.json para a integração
+
+{
+  "name": "fluffy-bears-staking-simulator",
+  "version": "1.0.0",
+  "description": "Simulador de Staking Fluffy Bears para Gitbook",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook-cli build",
+    "dev": "gitbook-cli dev"
+  },
+  "keywords": [
+    "gitbook",
+    "contentkit",
+    "staking",
+    "simulator",
+    "fluffy-bears"
+  ],
+  "author": "Fluffy Bears Team",
+  "license": "MIT",
+  "dependencies": {
+    "@gitbook/contentkit": "^0.0.1"
+  },
+  "gitbook": {
+    "name": "Fluffy Bears Staking Simulator",
+    "id": "fluffy-bears-staking-simulator",
+    "icon": "calculator"
+  }
+}
